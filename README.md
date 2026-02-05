@@ -2,6 +2,29 @@
 
 Predicting passenger survival on the Titanic using machine learning. Classic binary classification problem from the Kaggle competition.
 
+## Quick Start
+
+**Clone and run in 2 commands:**
+
+```bash
+git clone https://github.com/TalhaHamdees/titanic-survival-prediction.git
+cd titanic-survival-prediction
+```
+
+**Windows:**
+```bash
+setup.bat
+venv\Scripts\activate
+jupyter notebook
+```
+
+**Mac/Linux:**
+```bash
+chmod +x setup.sh && ./setup.sh
+source venv/bin/activate
+jupyter notebook
+```
+
 ## Project Overview
 
 **Goal:** Build a model to predict which passengers survived the Titanic shipwreck based on features like age, sex, ticket class, etc.
@@ -17,21 +40,14 @@ Predicting passenger survival on the Titanic using machine learning. Classic bin
 │   ├── 03_modeling.ipynb            # Model training and evaluation
 │   └── data/                        # Dataset files
 ├── requirements.txt                 # Python dependencies
+├── setup.bat                        # Windows setup script
+├── setup.sh                         # Mac/Linux setup script
 └── README.md
 ```
 
-## Setup
+## Requirements
 
-```bash
-# Create virtual environment
-python -m venv venv
-
-# Activate (Windows)
-venv\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
-```
+- Python 3.10+
 
 ## Notebooks
 
@@ -45,7 +61,8 @@ pip install -r requirements.txt
 
 ## Tech Stack
 
-- Python 3.x
+- Python 3.13
 - pandas, numpy
 - scikit-learn
 - matplotlib, seaborn
+- Jupyter Notebook
