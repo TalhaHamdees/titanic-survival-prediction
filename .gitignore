@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+env/
+venv/
+.env
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Data (keep raw data tracked for reproducibility)
+# *.csv
+# *.xlsx
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+nul
+
+# Models
+*.pkl
+*.joblib
