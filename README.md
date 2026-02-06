@@ -36,8 +36,8 @@ jupyter notebook
 ```
 ├── notebooks/
 │   ├── 01_data_exploration.ipynb    # EDA and data understanding
-│   ├── 02_feature_engineering.ipynb # Feature creation and selection
-│   ├── 03_modeling.ipynb            # Model training and evaluation
+│   ├── 02_preprocessing.ipynb       # Preprocessing, baseline model and evaluation
+│   ├── 03_modeling.ipynb            # Advanced model training and comparison
 │   └── data/                        # Dataset files
 ├── requirements.txt                 # Python dependencies
 ├── setup.bat                        # Windows setup script
@@ -52,8 +52,8 @@ jupyter notebook
 ## Notebooks
 
 1. **Data Exploration** - Understanding the dataset, missing values, distributions
-2. **Feature Engineering** - Creating meaningful features for prediction
-3. **Modeling** - Training and comparing different ML models
+2. **Preprocessing** - Data cleaning, pipeline building, baseline model and evaluation
+3. **Modeling** - Advanced model training and comparison
 
 ## Results
 
